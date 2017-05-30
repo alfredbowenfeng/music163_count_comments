@@ -39,8 +39,7 @@ def getPlayList(playListId):
 		songId = startIndex.split('=')[1]
 		if (readEver(songId)==1):
 			print(i.find('a').string + ',' + 'http://music.163.com/#/song?id=' + songId)
-			time.sleep(5)
-
+			
 def get_params():
 	first_param = "{rid:\"\", offset:\"0\", total:\"true\", limit:\"20\", csrf_token:\"\"}"
 	second_param = "010001"
